@@ -1,0 +1,8 @@
+<div class="box">
+  
+  <h2 *ngIf="book.title.length <= 30">{{book.title}}</h2>
+  <h2 *ngIf="book.title.length > 30">{{book.title.substring(0,30)}}...</h2>
+  <img src="https://via.placeholder.com/250x350" alt="">
+  <p>{{book.description}}</p>
+  <small>{{book.genre}}</small>
+</div>

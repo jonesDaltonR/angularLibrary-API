@@ -1,0 +1,9 @@
+<!--<ul>
+  <li *ngFor="let book of books" class="component-card">
+    <book-list-item [book]="book"></book-list-item>
+  </li>
+</ul>-->
+<div class="container">
+  <book-list-item *ngFor="let book of books" [book]="book"></book-list-item>
+</div>
+<p *ngIf="books.length < 1" class="error">No data to display. Either the query returned no results or there was a issues connecting to the API</p>

@@ -1,0 +1,9 @@
+@import '~src/assets/colors';
+
+p.credit{
+    position: absolute;
+    bottom: 0;
+    a{
+        color:cv(white,fade);
+    }
+}

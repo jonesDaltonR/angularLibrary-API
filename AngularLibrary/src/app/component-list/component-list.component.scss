@@ -1,0 +1,14 @@
+
+@import "~src/assets/colors";
+
+.container{
+    width: 96%;
+    margin:5.5em 2em 2em 1em;
+    columns:5;
+    column-gap:2.7em;
+}
+.error{
+    color:red;
+    padding-left: 30px;
+    font-size: 2em;
+}
